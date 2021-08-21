@@ -71,6 +71,7 @@ document.getElementById('delivery-charge-20Dollar').addEventListener('click', fu
     document.getElementById('delivery-charge-free').style.backgroundColor = '';
     document.getElementById('delivery-charge-20Dollar').style.backgroundColor = '#9ccc65';
 });
+//comment
 document.getElementById('promo-button').addEventListener('click', function () {
     const promoCodeText = document.getElementById('promo-code').value;
     promoCodeDiscount(promoCodeText);
